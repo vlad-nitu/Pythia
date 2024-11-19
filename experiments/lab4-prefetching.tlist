@@ -1,0 +1,104 @@
+NAME=403.gcc-16B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/403.gcc-16B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=410.bwaves-1963B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/410.bwaves-1963B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=429.mcf-184B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/429.mcf-184B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=436.cactusADM-1804B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/436.cactusADM-1804B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=437.leslie3d-134B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/437.leslie3d-134B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=445.gobmk-30B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/445.gobmk-30B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=450.soplex-247B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/450.soplex-247B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=456.hmmer-327B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/456.hmmer-327B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=459.GemsFDTD-1320B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/459.GemsFDTD-1320B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=462.libquantum-714B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/462.libquantum-714B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=470.lbm-1274B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/470.lbm-1274B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=471.omnetpp-188B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/471.omnetpp-188B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=473.astar-359B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/473.astar-359B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=481.wrf-455B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/481.wrf-455B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=482.sphinx3-1100B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/482.sphinx3-1100B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=483.xalancbmk-127B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/483.xalancbmk-127B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=602.gcc_s-2226B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/602.gcc_s-2226B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=603.bwaves_s-891B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/603.bwaves_s-891B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=605.mcf_s-1644B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/605.mcf_s-1644B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=619.lbm_s-2677B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/619.lbm_s-2677B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=620.omnetpp_s-141B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/620.omnetpp_s-141B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=621.wrf_s-6673B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/621.wrf_s-6673B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=623.xalancbmk_s-10B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/623.xalancbmk_s-10B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=627.cam4_s-573B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/627.cam4_s-573B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=649.fotonik3d_s-10881B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/649.fotonik3d_s-10881B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
+NAME=654.roms_s-1390B.champsimtrace.xz
+TRACE=$(PYTHIA_HOME)/traces/654.roms_s-1390B.champsimtrace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=100000000 --simulation_instructions=150000000
+
